@@ -1,0 +1,4 @@
+[[apt] [links] [includes <unistd.h>] [symbols
+getcwd read write
+STDIN_FILENO STDOUT_FILENO STDERR_FILENO
+]]

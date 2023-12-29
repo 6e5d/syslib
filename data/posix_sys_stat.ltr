@@ -1,0 +1,3 @@
+[[apt] [links] [includes <sys/stat.h>] [symbols
+stat fstat
+]]

@@ -1,0 +1,4 @@
+[[apt] [links] [includes <fcntl.h>] [symbols
+open close
+O_WRONLY O_RDONLY
+]]

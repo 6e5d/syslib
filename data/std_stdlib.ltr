@@ -1,0 +1,5 @@
+[[apt] [links] [includes <stdlib.h>] [symbols
+malloc calloc realloc
+free abort exit
+atoi atof
+]]

@@ -1,0 +1,5 @@
+[[apt] [links] [includes <stdio.h>] [symbols
+fprintf fscanf fread fwrite printf snprintf sscanf fopen fclose fflush
+stdin stdout stderr
+FILE
+]]

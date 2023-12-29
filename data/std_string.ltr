@@ -1,0 +1,4 @@
+[[apt] [links] [includes <string.h>] [symbols
+memcpy memmove memset memcmp
+strcpy strcmp strncpy strlen strcat strstr strtok_r
+]]

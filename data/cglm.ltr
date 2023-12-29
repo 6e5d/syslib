@@ -1,0 +1,14 @@
+[
+[apt libcglm-dev]
+[symbols
+vec3 vec4 mat3 mat4
+glm_mat4_identity glm_mat4_mul glm_mat4_inv
+glm_mat3_inv glm_mat3_mul glm_mat3_transpose_to glm_mat3_mulv
+glm_mat3_identity glm_mat3_scale
+glm_vec3_copy glm_vec3_sub glm_vec3_scale glm_vec3_add glm_vec3_zero
+glm_vec3_crossn glm_vec3_normalize
+glm_lookat
+]
+[includes <cglm/cglm.h>]
+[links -lcglm -lm]
+]
