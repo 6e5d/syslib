@@ -1,0 +1,8 @@
+[
+[apt libwayland-dev]
+[symbols
+wl_surface wl_display
+]
+[includes <wayland-client.h>]
+[links -lwayland-client]
+]
