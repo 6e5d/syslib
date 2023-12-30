@@ -1,0 +1,8 @@
+[
+[apt libstb-dev]
+[symbols
+stbi_load STBI_rgb_alpha stbi_write_png
+]
+[includes <stb/stb_image.h> <stb/stb_image_write.h>]
+[links -lstb]
+]

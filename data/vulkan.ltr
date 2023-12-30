@@ -245,6 +245,9 @@ vkAllocateMemory
 vkBindBufferMemory
 vkBindImageMemory
 vkCmdBeginRenderPass
+vkCmdBindPipeline
+vkCmdDraw
+vkCmdEndRenderPass
 vkCmdPipelineBarrier
 vkCmdSetScissor
 vkCmdSetViewport
@@ -272,9 +275,13 @@ vkDestroyFence
 vkDestroyFramebuffer
 vkDestroyImage
 vkDestroyImageView
+vkDestroyPipeline
+vkDestroyPipelineLayout
+vkDestroyRenderPass
 vkDestroySemaphore
 vkDestroyShaderModule
 vkDestroySwapchainKHR
+vkDeviceWaitIdle
 vkEnumeratePhysicalDevices
 vkFreeMemory
 vkGetBufferMemoryRequirements

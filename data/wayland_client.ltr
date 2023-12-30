@@ -2,6 +2,16 @@
 [apt libwayland-dev]
 [symbols
 wl_surface wl_display
+wl_keyboard wl_pointer wl_pointer_set_cursor
+wl_array wl_fixed_t wl_fixed_to_double
+wl_display_roundtrip
+wl_display_dispatch_pending
+WL_POINTER_BUTTON_STATE_PRESSED
+WL_KEYBOARD_KEY_STATE_PRESSED
+xdg_toplevel
+zwp_tablet_tool_v2 zwp_tablet_v2
+ZWP_TABLET_TOOL_V2_BUTTON_STATE_PRESSED
+ZWP_TABLET_TOOL_V2_TYPE_ERASER
 ]
 [includes <wayland-client.h>]
 [links -lwayland-client]
