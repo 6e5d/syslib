@@ -1,0 +1,6 @@
+[[includes <dirent.h>] [names
+opendir
+readdir
+closedir
+]
+]

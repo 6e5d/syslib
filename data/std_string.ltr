@@ -1,4 +1,5 @@
 [[apt] [links] [includes <string.h>] [names
 memcpy memmove memset memcmp
 strcpy strcmp strncpy strlen strcat strstr strtok_r
+strrchr
 ]]

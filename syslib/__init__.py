@@ -26,6 +26,7 @@ def symtable(gids):
 		["com", "6e5d", "syslib", "std", "assert"],
 		["com", "6e5d", "syslib", "std", "time"],
 		["com", "6e5d", "syslib", "std", "math"],
+		["com", "6e5d", "syslib", "posix", "dirent"],
 		["com", "6e5d", "syslib", "posix", "fcntl"],
 		["com", "6e5d", "syslib", "posix", "unistd"],
 		["com", "6e5d", "syslib", "posix", "sys", "stat"],
@@ -35,10 +36,10 @@ def symtable(gids):
 		d = add_sysdep(gid)
 		for symbol in d.get("types", []):
 			if symbol in lookup:
-				raise Exception("collision")
+				raise Exception("collision", symbol)
 			lookup[symbol] = ("type", gid)
 		for symbol in d.get("names", []):
 			if symbol in lookup:
-				raise Exception("collision")
+				raise Exception("collision", symbol)
 			lookup[symbol] = ("name", gid)
 	return lookup

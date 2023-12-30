@@ -1,4 +1,8 @@
-[[apt] [links] [includes <unistd.h>] [names
+[[includes <unistd.h>] [names
 getcwd read write
 STDIN_FILENO STDOUT_FILENO STDERR_FILENO
+unlink
+]
+[types
+dirent
 ]]

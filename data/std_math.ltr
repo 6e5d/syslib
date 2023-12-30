@@ -1,3 +1,3 @@
 [[apt] [links -lm] [includes <math.h>]
-[names sqrtf cosf sinf]
+[names sqrtf cosf sinf atan2f fabsf floorf ceilf]
 ]

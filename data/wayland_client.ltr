@@ -16,6 +16,7 @@ wl_pointer_set_cursor
 wl_fixed_to_double
 wl_display_roundtrip
 wl_display_dispatch_pending
+wl_surface_commit
 WL_POINTER_BUTTON_STATE_PRESSED
 WL_KEYBOARD_KEY_STATE_PRESSED
 ZWP_TABLET_TOOL_V2_BUTTON_STATE_PRESSED

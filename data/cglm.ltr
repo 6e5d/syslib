@@ -1,6 +1,7 @@
 [
 [apt libcglm-dev]
 [types
+vec2
 vec3
 vec4
 mat3
@@ -17,6 +18,8 @@ glm_mat3_transpose_to
 glm_mat4_identity
 glm_mat4_inv
 glm_mat4_mul
+glm_mat4_mulv
+glm_perspective
 glm_vec3_add
 glm_vec3_copy
 glm_vec3_crossn

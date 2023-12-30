@@ -3,4 +3,6 @@
 malloc calloc realloc
 free abort exit
 atoi atof
+strtol
+qsort
 ]]
