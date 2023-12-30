@@ -33,8 +33,12 @@ def symtable(gids):
 	]
 	for gid in gids:
 		d = add_sysdep(gid)
-		for symbol in d["symbols"]:
+		for symbol in d.get("types", []):
 			if symbol in lookup:
 				raise Exception("collision")
-			lookup[symbol] = gid
+			lookup[symbol] = ("type", gid)
+		for symbol in d.get("names", []):
+			if symbol in lookup:
+				raise Exception("collision")
+			lookup[symbol] = ("name", gid)
 	return lookup

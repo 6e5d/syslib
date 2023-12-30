@@ -1,3 +1,4 @@
-[[apt] [links] [includes <time.h>] [symbols
-timespec nanosleep clock_gettime CLOCK_REALTIME
-]]
+[[apt] [links] [includes <time.h>]
+[types timespec]
+[names nanosleep clock_gettime CLOCK_REALTIME]
+]

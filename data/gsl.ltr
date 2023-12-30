@@ -1,9 +1,15 @@
 [
 [apt libgsl-dev]
-[symbols
-gsl_matrix_view gsl_vector_view
-gsl_matrix_view_array gsl_vector_view_array
-gsl_eigen_symmv_workspace gsl_eigen_symmv gsl_eigen_symmv_free
+[types
+gsl_matrix_view
+gsl_vector_view
+gsl_eigen_symmv_workspace
+]
+[names
+gsl_matrix_view_array
+gsl_vector_view_array
+gsl_eigen_symmv
+gsl_eigen_symmv_free
 gsl_eigen_symmv_alloc
 ]
 [includes

@@ -1,9 +1,8 @@
 [
-[symbols
+[types VkWaylandSurfaceCreateInfoKHR]
+[names
 vkCreateWaylandSurfaceKHR
-VkWaylandSurfaceCreateInfoKHR
 VK_STRUCTURE_TYPE_WAYLAND_SURFACE_CREATE_INFO_KHR
 ]
 [includes <vulkan/vulkan_wayland.h>]
-[links]
 ]

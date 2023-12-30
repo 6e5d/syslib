@@ -1,3 +1,4 @@
-[[apt] [links] [includes <sys/stat.h>] [symbols
-stat fstat
-]]
+[[apt] [links] [includes <sys/stat.h>]
+[types stat]
+[names fstat]
+]
